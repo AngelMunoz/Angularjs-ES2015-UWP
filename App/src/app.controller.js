@@ -4,8 +4,8 @@
     this.routes = [
       { state: 'home', label: 'Home' },
       { state: 'about', label: 'About' },
-      { state: 'users', label: 'Users' },
-      { state: 'tickets', label: 'Tickets' },
+      //{ state: 'users', label: 'Users' },
+      //{ state: 'tickets', label: 'Tickets' },
     ];
 
     this.sireNavRef = document.querySelector('.sidenav');

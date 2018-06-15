@@ -69,6 +69,10 @@
     <Content Include="lib\material\icon.css" />
     <Content Include="lib\material\material.woff2" />
     <Content Include="src\app.controller.js" />
+    <Content Include="src\about\about.config.js" />
+    <Content Include="src\about\about.controller.js" />
+    <Content Include="src\about\about.html" />
+    <Content Include="src\about\index.js" />
     <Content Include="src\home\home.config.js" />
     <Content Include="src\home\home.controller.js" />
     <Content Include="src\home\home.html" />
