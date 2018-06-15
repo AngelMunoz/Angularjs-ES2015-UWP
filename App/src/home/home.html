@@ -1,0 +1,40 @@
+﻿<article class="container">
+  <section class="row" ng-init="$ctrl.perro= 'flan'">
+    <div class="card">
+      <div class="card-content">
+        <span class="card-title">
+          Button Events
+        </span>
+        <p>
+          Generaly We Will Use <b>ng-click</b>
+          <br> Count: <b>{{$ctrl.count}}</b>
+        </p>
+      </div>
+      <div class="card-action">
+        <a class="waves-effect waves-light btn" ng-click="$ctrl.countAdd()"><i class="material-icons">add</i></a>
+        <a class="waves-effect waves-light btn" ng-click="$ctrl.countMinus()"><i class="material-icons">remove</i></a>
+      </div>
+    </div>
+  </section>
+  <section class="row">
+    <div class="card">
+      <div class="card-content">
+        <span class="card-title">
+          Data Binding, KeyPress, ng-change
+        </span>
+        <p>
+          for inputs we use <b>ng-model</b>, to display data we use <br>
+          <b>
+            <span ng-bind="$ctrl.brackets"></span>
+          </b> for the places where we show count before
+          <br> Count: <b>{{$ctrl.count}}</b>
+          <input type="number" ng-model="$ctrl.count" ng-change="$ctrl.onNgChange()" ng-keypress="$ctrl.onKeyPress($event)">
+        </p>
+      </div>
+      <div class="card-action">
+        <a class="waves-effect waves-light btn" ng-click="$ctrl.countAdd()"><i class="material-icons">add</i></a>
+        <a class="waves-effect waves-light btn" ng-click="$ctrl.countMinus()"><i class="material-icons">remove</i></a>
+      </div>
+    </div>
+  </section>
+</article>

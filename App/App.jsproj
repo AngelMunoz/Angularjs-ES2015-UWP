@@ -52,9 +52,7 @@
     <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>$(VersionNumberMajor).$(VersionNumberMinor)</MinimumVisualStudioVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    
     <PackageCertificateKeyFile>App_TemporaryKey.pfx</PackageCertificateKeyFile>
-    
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -68,11 +66,28 @@
     <Content Include="images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="images\StoreLogo.png" />
     <Content Include="images\Wide310x150Logo.scale-200.png" />
-    <Content Include="js\main.js" />
+    <Content Include="lib\material\icon.css" />
+    <Content Include="lib\material\material.woff2" />
+    <Content Include="src\app.controller.js" />
+    <Content Include="src\home\home.config.js" />
+    <Content Include="src\home\home.controller.js" />
+    <Content Include="src\home\home.html" />
+    <Content Include="src\home\index.js" />
+    <Content Include="src\main.js" />
     <Content Include="css\default.css" />
-    
+    <Content Include="lib\angular\angular.min.js" />
+    <Content Include="lib\angular\ui-router.js" />
+    <Content Include="lib\materialize\css\materialize.css" />
+    <Content Include="lib\materialize\css\materialize.min.css" />
+    <Content Include="lib\materialize\js\materialize.js" />
+    <Content Include="lib\materialize\js\materialize.min.js" />
+    <Content Include="lib\materialize\LICENSE" />
+    <Content Include="lib\materialize\README.md" />
+    <Content Include="lib\moment\moment.js" />
     <None Include="App_TemporaryKey.pfx" />
-    
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lib\materialize\fonts\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment
